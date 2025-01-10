@@ -1,0 +1,27 @@
+# styling
+theme = CoolNight
+font-size = 16
+font-family = MesloLGS Nerd Font
+background-blur-radius = 20
+background-opacity = .70
+
+# auto update settings
+auto-update = download
+auto-update-channel = stable
+
+# tmux-like prefix controlled keybindings
+keybind = super+b>x=close_surface
+keybind = super+b>c=new_tab 
+keybind = super+b>n=new_window
+keybind = super+b>f=toggle_fullscreen
+
+# splits 
+keybind = super+b>y=new_split:right
+keybind = super+b>x=new_split:down
+keybind = super+b>e=equalize_splits
+
+# split navigation 
+keybind = super+b>h=goto_split:left
+keybind = super+b>j=goto_split:bottom
+keybind = super+b>k=goto_split:top
+keybind = super+b>l=goto_split:right
