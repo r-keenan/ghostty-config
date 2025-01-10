@@ -9,6 +9,13 @@ background-opacity = .70
 auto-update = download
 auto-update-channel = stable
 
+# custom keybindings
+keybind = super+r=reload_config 
+keybind = super+i=inspector:toggle
+keybind = super+f=toggle_fullscreen
+keybind = super+left=previous_tab
+keybind = super+right=next_tab
+
 # tmux-like prefix controlled keybindings
 keybind = super+b>x=close_surface
 keybind = super+b>c=new_tab 
