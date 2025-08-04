@@ -23,12 +23,12 @@ keybind = super+b>n=new_window
 keybind = super+b>f=toggle_fullscreen
 
 # splits 
-keybind = super+b>y=new_split:right
-keybind = super+b>x=new_split:down
-keybind = super+b>e=equalize_splits
+keybind = super+s>y=new_split:right
+keybind = super+s>x=new_split:down
+keybind = super+s>e=equalize_splits
 
 # split navigation 
-keybind = super+b>h=goto_split:left
-keybind = super+b>j=goto_split:bottom
-keybind = super+b>k=goto_split:top
-keybind = super+b>l=goto_split:right
+keybind = super+s>h=goto_split:left
+keybind = super+s>j=goto_split:bottom
+keybind = super+s>k=goto_split:top
+keybind = super+s>l=goto_split:right
